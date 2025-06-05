@@ -40,3 +40,19 @@ Each table includes primary keys and the `Ratings` table includes foreign keys t
   SELECT restaurant_id, AVG(score) AS avg_rating
   FROM Ratings
   GROUP BY restaurant_id;
+  
+## Project Team
+
+This project was developed collaboratively by a team of three as part of an **Agile software development process**. The team worked in **iterative two-week sprints**, incorporating regular **peer reviews** to ensure code quality and maintain consistent progress.
+
+## Future Work
+
+While the current version focuses on the database backend, potential future extensions include:
+
+- A web front-end for users to browse restaurants and submit reviews  
+- Data scraping scripts to populate the database with real-world data  
+- Additional analytics for identifying restaurant trends and user behavior  
+
+## License
+
+This project was created for educational purposes only and is not intended for production use.
